@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+
+        }
+
+        body {
+            background: #dcdee0;
+        }
+
+        .container {
+            height: 80vh;
+            width: 60%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+            background: #dcdee0;
+
+        }
+
+        .formbox {
+            position: relative;
+
+            display: inline-block;
+            /* float: left; */
+            width: 50%;
+            height: 100%;
+            background-color: white;
+        }
+
+        /* .box{
+            margin-top: 30px;
+            width: 100%;
+            padding: 20px;
+            margin-bottom: 30px;
+        } */
+        .imgbox {
+
+            height: 100%;
+            float: right;
+            width: 50%;
+            /* background: url(img.1.jpg);
+            background-repeat:no-repeat;
+            background-size:cover; */
+        }
+
+        .imgbox img {
+            height: 100%;
+            width: 100%;
+        }
+
+        form {
+            margin-top: 60px;
+            padding: 30px 50px;
+        }
+
+        .first {
+            display: inline-block;
+            width: 40%;
+            border: none;
+            border-bottom: 1px solid rgb(134, 198, 203);
+            padding: 20px 10px;
+
+        }
+
+        .last {
+            /* float: right; */
+            width: 50%;
+
+            border: none;
+            border-bottom: 1px solid rgb(134, 198, 203);
+            padding: 20px 5px;
+            position: relative;
+            left: 10px;
+
+        }
+
+        .user,
+        .email,
+        .phn {
+            display: block;
+            width: 300px;
+            border: none;
+            border-bottom: 1px solid rgb(134, 198, 203);
+            padding: 20px;
+
+        }
+
+        button {
+            border: none;
+            border-radius: 25px;
+            background: white;
+            padding: 4px;
+            height: 40px;
+            width: 170px;
+            margin: 30px 80px;
+            background-color: rgb(80, 72, 122);
+            color: white;
+            cursor: pointer;
+
+        }
+
+        h2 {
+            padding: 30px 10px;
+            color: rgb(80, 72, 122);
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="formbox">
+            <form action="#">
+                <h2>registration form</h2>
+                <div class="box">
+
+                    <input type="text" class="first" placeholder="firstname">
+                    <input type="text" class="last" placeholder="lastname">
+                    <input type="text" class="user" placeholder="username">
+                    <input type="text" class="email" placeholder="email address">
+                    <input type="text" class="phn" placeholder="phone no">
+                </div>
+                <button ><a style="text-decoration: none; color: #fff;" href="login.html">Register</a></button>
+
+            </form>
+        </div>
+        <div class="imgbox">
+            <img src="img.1.jpg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
